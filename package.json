@@ -1,0 +1,23 @@
+{
+  "name": "sme-finance-cn",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Financial accounting and tax software for Chinese SMEs and sole proprietors.",
+  "workspaces": [
+    "frontend",
+    "backend",
+    "electron",
+    "shared"
+  ],
+  "scripts": {
+    "test": "npm run test --workspaces",
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
