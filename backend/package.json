@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "sme-finance-cn-backend",
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
@@ -9,31 +9,30 @@
     "test": "jest"
   },
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.18.2",
-    "jsonwebtoken": "^9.0.2",
-    "pg": "^8.11.3",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.19.0",
     "pg-hstore": "^2.3.4",
-    "sequelize": "^6.37.1",
+    "sequelize": "^6.37.7",
     "swagger-jsdoc": "^6.2.8",
-    "swagger-ui-express": "^5.0.0"
+    "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
-    "@types/bcryptjs": "^2.4.6",
-    "@types/cors": "^2.8.17",
-    "@types/express": "^4.17.21",
-    "@types/jest": "^29.5.12",
-    "@types/jsonwebtoken": "^9.0.6",
-    "@types/node": "^20.11.20",
-    "@types/pg": "^8.11.2",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jest": "^30.0.0",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^25.3.3",
+    "@types/pg": "^8.18.0",
     "@types/swagger-jsdoc": "^6.0.4",
-    "@types/swagger-ui-express": "^4.1.6",
-    "jest": "^29.7.0",
-    "nodemon": "^3.1.0",
-    "ts-jest": "^29.1.2",
+    "@types/swagger-ui-express": "^4.1.8",
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.14",
+    "ts-jest": "^29.4.6",
     "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
+    "typescript": "^5.9.3"
   }
 }
